@@ -137,9 +137,11 @@ header .container::after {
 header .logo {
   max-width: 170px;
   max-height: 71px;
+  border-bottom: 3px var(--min-color) dotted;
 }
 header .logo h1 {
   color: var(--min-color);
+  font-style: oblique;
 }
 header .container .links {
   display: flex;
